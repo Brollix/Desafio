@@ -23,3 +23,12 @@ console.log(info);
 for (let i = 0; i < info.length; i++) {
 	console.log(info[i] + ': ' + typeof info[i]);
 }
+
+document.getElementById('info').innerHTML =
+	'Nombre: ' +
+	info[0] +
+	', Año de Nacimiento: ' +
+	info[1] +
+	', Edad: ' +
+	info[2] +
+	' años.';
